@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_specialists"
+            android:icon="@drawable/specialist"
+            android:title="Specialists" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/book"
+            android:title="Book Appointment" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/pay"
+            android:title="Payment" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="Help and Feedback" />
+        </menu>
+    </item>
+
+</menu>
