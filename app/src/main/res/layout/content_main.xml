@@ -13,6 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
+            android:layout_marginTop="50dp"
             android:fitsSystemWindows="true"
             android:orientation="vertical">
 
@@ -39,9 +40,33 @@
                         android:textColor="#000"
                         android:textSize="20sp"/>
                 </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/itemlisting"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_alignParentBottom="false"
+                    android:orientation="horizontal">
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/user2"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="  Sheila Mbadi"
+                        android:layout_weight="1"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
             </RelativeLayout>
+
+
         </LinearLayout>
     </ScrollView>
-
 </LinearLayout>

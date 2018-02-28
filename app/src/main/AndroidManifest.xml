@@ -13,11 +13,7 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ServicesActivity"
@@ -36,7 +32,14 @@
             android:label="Contact Us" />
         <activity
             android:name=".HelpActivity"
-            android:label="Help and Feedback"/>
+            android:label="Help and Feedback" />
+        <activity android:name=".DatabaseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
